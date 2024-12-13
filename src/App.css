@@ -1,0 +1,104 @@
+
+/* Font */
+@font-face{
+    src: url("./assets/Font/shabnam.ttf");
+    font-family: shabnam;
+}
+@font-face{
+    src: url("./assets/Font/IRANYekanBlackFaNum.ttf");
+    font-family: yakan;
+}
+@font-face{
+    src: url("./assets/Font/Far_Dinar_Two_Medium/Far_Dinar_Two_Medium.ttf");
+    font-family: dinar;
+}
+/* heder */
+
+#Menu{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+#logo{
+    position: relative;
+    bottom: 80px;
+    left: 250px;
+}
+.component{
+    position: relative;
+    bottom: 47px;
+    left: 390px;
+    float: left;
+    margin-left: 100px;
+    
+    
+}
+#SearchIcon{
+    position: relative;
+    bottom: 50px;
+    left: 550px;
+    font-size: xx-large;
+}
+/* badane */
+#h1-Freshly{
+    position: relative;
+    color: #c08847;
+    font-family: dinar;
+    font-size: 100px;
+    left: 300px;
+}
+#h1-Coffee{
+    position: relative;
+    font-family: dinar;
+    font-size: 60px;
+    left: 350px;
+}
+#Coffee-Picture{
+    position: relative;
+    left: 250px;
+    width: 400px;
+}
+#bg {
+    position: fixed;
+    background-color: #f25922;
+    width: 50%;
+    height: 100vh; 
+    left: 937px;
+    top: 0;
+} 
+#Explore-Button{
+    border-radius: 15px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: dinar;
+    font-size: large;
+}
+#icon-Left{
+    position: relative;
+    font-size: 60px;
+    left: 205px;
+    top: 80px;
+    background: #f25922;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#icon-Right{
+    font-size: 60px;
+    position: relative;
+    left: 230px;
+    top: 80px;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icon-App{
+    position: relative;
+    left: 720px;
+    top: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 30px !important;
+}
